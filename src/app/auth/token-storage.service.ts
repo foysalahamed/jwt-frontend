@@ -49,4 +49,9 @@ export class TokenStorageService {
  
     return this.roles;
   }
+
+  isUserLoggedIn() {
+    let user = sessionStorage.getItem('authenticaterUser')
+    return !(user === null)
+  }
 }

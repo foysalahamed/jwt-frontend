@@ -9,10 +9,12 @@ import { UserService } from '../services/user.service';
 export class UserComponent implements OnInit {
   board: string;
   errorMessage: string;
+  name:string="Foysl ahamed";
  
   constructor(private userService: UserService) { }
  
   ngOnInit() {
+    this.name;
     this.userService.getUserBoard().subscribe(
       data => {
         this.board = data;
