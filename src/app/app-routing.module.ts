@@ -7,15 +7,18 @@ import { HomeComponent } from './home/home.component';
 import { UserComponent } from './user/user.component';
 import { PmComponent } from './pm/pm.component';
 import { AdminComponent } from './admin/admin.component';
+import { RouteGuardService } from './services/route-guard.service';
  
 const routes: Routes = [
+    { path: '', component: LoginComponent  },//canActivate, RouteGuardService
+    { path: 'login', component: LoginComponent },
     {
         path: 'home',
         component: HomeComponent
     },
     {
         path: 'user',
-        component: UserComponent
+        component: UserComponent,canActivate:[RouteGuardService]
     },
     {
         path: 'pm',
