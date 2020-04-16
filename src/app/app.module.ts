@@ -13,6 +13,8 @@ import { AdminComponent } from './admin/admin.component';
 import { PmComponent } from './pm/pm.component';
  
 import { httpInterceptorProviders } from './auth/auth-interceptor';
+import { TodoComponent } from './todo/todo.component';
+import { ListTodosComponent } from './list-todos/list-todos.component';
  
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { httpInterceptorProviders } from './auth/auth-interceptor';
     RegisterComponent,
     HomeComponent,
     AdminComponent,
-    PmComponent
+    PmComponent,
+    TodoComponent,
+    ListTodosComponent
   ],
   imports: [
     BrowserModule,

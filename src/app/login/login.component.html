@@ -1,5 +1,7 @@
 <div *ngIf="isLoggedIn; else loggedOut">
     Logged in as {{roles}}.
+    Username {{userName}}
+    <a>Test user</a>
   </div>
    
   <ng-template #loggedOut>

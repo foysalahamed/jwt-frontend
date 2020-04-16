@@ -8,13 +8,14 @@ import { UserComponent } from './user/user.component';
 import { PmComponent } from './pm/pm.component';
 import { AdminComponent } from './admin/admin.component';
 import { RouteGuardService } from './services/route-guard.service';
+import { TodoComponent } from './todo/todo.component';
+import { ListTodosComponent } from './list-todos/list-todos.component';
  
 const routes: Routes = [
     { path: '', component: LoginComponent  },//canActivate, RouteGuardService
     { path: 'login', component: LoginComponent },
     {
-        path: 'home',
-        component: HomeComponent
+        path: 'home',component: HomeComponent
     },
     {
         path: 'user',
@@ -22,23 +23,28 @@ const routes: Routes = [
     },
     {
         path: 'pm',
-        component: PmComponent
+        component: PmComponent,canActivate:[RouteGuardService]
     },
     {
         path: 'admin',
-        component: AdminComponent
+        component: AdminComponent,canActivate:[RouteGuardService]
     },
     {
-        path: 'auth/login',
-        component: LoginComponent
+        path: 'auth/login',component: LoginComponent
     },
     {
-        path: 'signup',
-        component: RegisterComponent
+        path: 'signup',component: RegisterComponent
     },
     {
-        path: '',
-        redirectTo: 'home',
+        path: 'todo',component: TodoComponent
+    },
+    {
+        path: 'list-todos',component: ListTodosComponent
+    },
+    { path: 'todos', component: ListTodosComponent },
+    { path: 'todos/:id', component: TodoComponent },
+    {
+        path: '', redirectTo: 'home',
         pathMatch: 'full'
     }
 ];
