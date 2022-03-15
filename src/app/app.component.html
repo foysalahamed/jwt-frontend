@@ -1,37 +1,30 @@
-<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+
+
+<!-- <app-menu></app-menu> -->
+<nav class="navbar navbar-light navbar-expand-md " style="background-color: #54535e;">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="#">JWT</a>
+      <a class="navbar-brand" href="list-todos">Todos</a>
     </div>
+   
+   
     <ul class="nav navbar-nav" routerLinkActive="active">
 
-      <!-- *ngIf="authority === 'user'" 
-       *ngIf="authority === 'admin'"
-      *ngIf="authority  === 'pm'"
-     *ngIf="!authority"
-    -->
-       <li class="nav-item"><a class="nav-link" routerLink="home">Home</a></li>
-      <li *ngIf="authority === 'user'"  class="nav-item">
-        <a class="nav-link" routerLink="user">User Board</a>
-      </li>
-      <li   class="nav-item">
+     
+      <li  class="nav-item">
         <a class="nav-link" routerLink="todo">AddTodo</a>
       </li>
-      <li  class="nav-item">
-        <a class="nav-link" routerLink="list-todos">Todos</a>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="list-todos">Todo List</a>
       </li>
-      <li *ngIf="authority === 'admin'" class="nav-item">
-        <a class="nav-link" routerLink="admin">Admin Board</a>
-      </li>
-      <li *ngIf="authority === 'pm'" class="nav-item">
-        <a class="nav-link" routerLink="pm">PM Board</a>
-      </li>
-      <li *ngIf="!authority" class="nav-item">
-        <a class="nav-link" routerLink="auth/login">Login</a>
-      </li>
+      
+      
+     
     </ul>
   </div>
 </nav>
+
 <div class="container">
   <router-outlet></router-outlet>
 </div>
+<!-- <app-footer></app-footer> -->

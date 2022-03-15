@@ -1,12 +1,22 @@
 <H1>Todo</H1>
-<h2>{{userName}}</h2>
+
 
 <div class="container">
-  <div class="alert alert-warning" *ngIf="todoForm.dirty && todoForm.invalid">Enter valid values</div>
-  <div class="alert alert-warning" *ngIf="todoForm.dirty && targetDate.invalid">Enter valid Target Date</div>
+  <div class="row" >
+    <div class="col-sm-6">
+  <div class="alert alert-warning" *ngIf="todoForm.dirty && name.invalid">Enter atleast 5 characters in Name</div>
   <div class="alert alert-warning" *ngIf="todoForm.dirty && description.invalid">Enter atleast 5 characters in Description</div>
+  <div class="alert alert-warning" *ngIf="todoForm.dirty && targetDate.invalid">Enter valid Target Date</div>
+
   
   <form (ngSubmit)="!todoForm.invalid && saveTodo()" #todoForm="ngForm">
+    
+    <fieldset class="form-group">
+      <label>Name</label>
+      <input type="text" #name="ngModel" 
+            [(ngModel)]="todo.name" class="form-control" 
+                name="name" required="required" minlength="5">
+    </fieldset>
     <fieldset class="form-group">
       <label>Description</label>
       <input type="text" #description="ngModel" 
@@ -23,5 +33,8 @@
     </fieldset>
 
     <button type="submit" class="btn btn-success">Save</button>
+  
   </form>  
+  </div>
+  </div>
 </div>

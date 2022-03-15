@@ -1,0 +1,102 @@
+[0m2021.03.18 17:32:10 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at e:\Angular\workspace\jwt\null\scalameta\metals\cache\lsp.trace.json[0m
+[0m2021.03.18 17:32:11 INFO  Starting Metals server with configuration: MetalsServerConfig(
+  glob-syntax=GlobSyntaxConfig(vscode),
+  status-bar=StatusBarConfig(off),
+  open-files-on-rename=false,
+  rename-file-threshold=300,
+  slow-task=SlowTaskConfig(off),
+  execute-client-command=ExecuteClientCommandConfig(off),
+  compilers=PresentationCompilerConfigImpl(false,Some(editor.action.triggerParameterHints),Some(editor.action.triggerSuggest),Map(scala/collection/mutable/ -> mutable., java/util/ -> ju.),Unicode,true,true,true,true,true,true,true,scala.meta.internal.pc.PresentationCompilerConfigImpl$$$Lambda$61/1366025231@17046283,20,SECONDS),
+  http=false,
+  input-box=false,
+  ask-to-reconnect=false,
+  icons=vscode,
+  statistics=StatisticsConfig(default),
+  bloop-port=default
+)[0m
+[0m2021.03.18 17:32:12 INFO  logging to file E:\Angular\workspace\jwt\.metals\metals.log[0m
+[0m2021.03.19 20:01:01 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at e:\Angular\workspace\jwt\null\scalameta\metals\cache\lsp.trace.json[0m
+[0m2021.03.19 20:01:03 INFO  Starting Metals server with configuration: MetalsServerConfig(
+  glob-syntax=GlobSyntaxConfig(vscode),
+  status-bar=StatusBarConfig(off),
+  open-files-on-rename=false,
+  rename-file-threshold=300,
+  slow-task=SlowTaskConfig(off),
+  execute-client-command=ExecuteClientCommandConfig(off),
+  compilers=PresentationCompilerConfigImpl(false,Some(editor.action.triggerParameterHints),Some(editor.action.triggerSuggest),Map(scala/collection/mutable/ -> mutable., java/util/ -> ju.),Unicode,true,true,true,true,true,true,true,scala.meta.internal.pc.PresentationCompilerConfigImpl$$$Lambda$61/1366025231@17046283,20,SECONDS),
+  http=false,
+  input-box=false,
+  ask-to-reconnect=false,
+  icons=vscode,
+  statistics=StatisticsConfig(default),
+  bloop-port=default
+)[0m
+[0m2021.03.19 20:01:04 INFO  logging to file E:\Angular\workspace\jwt\.metals\metals.log[0m
+[0m2021.03.20 00:26:36 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at e:\Angular\workspace\jwt\null\scalameta\metals\cache\lsp.trace.json[0m
+[0m2021.03.20 00:26:36 INFO  Starting Metals server with configuration: MetalsServerConfig(
+  glob-syntax=GlobSyntaxConfig(vscode),
+  status-bar=StatusBarConfig(off),
+  open-files-on-rename=false,
+  rename-file-threshold=300,
+  slow-task=SlowTaskConfig(off),
+  execute-client-command=ExecuteClientCommandConfig(off),
+  compilers=PresentationCompilerConfigImpl(false,Some(editor.action.triggerParameterHints),Some(editor.action.triggerSuggest),Map(scala/collection/mutable/ -> mutable., java/util/ -> ju.),Unicode,true,true,true,true,true,true,true,scala.meta.internal.pc.PresentationCompilerConfigImpl$$$Lambda$61/1366025231@17046283,20,SECONDS),
+  http=false,
+  input-box=false,
+  ask-to-reconnect=false,
+  icons=vscode,
+  statistics=StatisticsConfig(default),
+  bloop-port=default
+)[0m
+[0m2021.03.20 00:26:38 INFO  logging to file E:\Angular\workspace\jwt\.metals\metals.log[0m
+[0m2021.03.22 23:59:13 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at e:\Angular\workspace\jwt\null\scalameta\metals\cache\lsp.trace.json[0m
+[0m2021.03.22 23:59:13 INFO  Starting Metals server with configuration: MetalsServerConfig(
+  glob-syntax=GlobSyntaxConfig(vscode),
+  status-bar=StatusBarConfig(off),
+  open-files-on-rename=false,
+  rename-file-threshold=300,
+  slow-task=SlowTaskConfig(off),
+  execute-client-command=ExecuteClientCommandConfig(off),
+  compilers=PresentationCompilerConfigImpl(false,Some(editor.action.triggerParameterHints),Some(editor.action.triggerSuggest),Map(scala/collection/mutable/ -> mutable., java/util/ -> ju.),Unicode,true,true,true,true,true,true,true,scala.meta.internal.pc.PresentationCompilerConfigImpl$$$Lambda$61/1366025231@17046283,20,SECONDS),
+  http=false,
+  input-box=false,
+  ask-to-reconnect=false,
+  icons=vscode,
+  statistics=StatisticsConfig(default),
+  bloop-port=default
+)[0m
+[0m2021.03.22 23:59:13 INFO  logging to file E:\Angular\workspace\jwt\.metals\metals.log[0m
+[0m2021.03.23 00:38:45 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at e:\Angular\workspace\jwt\null\scalameta\metals\cache\lsp.trace.json[0m
+[0m2021.03.23 00:38:45 INFO  Starting Metals server with configuration: MetalsServerConfig(
+  glob-syntax=GlobSyntaxConfig(vscode),
+  status-bar=StatusBarConfig(off),
+  open-files-on-rename=false,
+  rename-file-threshold=300,
+  slow-task=SlowTaskConfig(off),
+  execute-client-command=ExecuteClientCommandConfig(off),
+  compilers=PresentationCompilerConfigImpl(false,Some(editor.action.triggerParameterHints),Some(editor.action.triggerSuggest),Map(scala/collection/mutable/ -> mutable., java/util/ -> ju.),Unicode,true,true,true,true,true,true,true,scala.meta.internal.pc.PresentationCompilerConfigImpl$$$Lambda$61/1366025231@17046283,20,SECONDS),
+  http=false,
+  input-box=false,
+  ask-to-reconnect=false,
+  icons=vscode,
+  statistics=StatisticsConfig(default),
+  bloop-port=default
+)[0m
+[0m2021.03.23 00:38:46 INFO  logging to file E:\Angular\workspace\jwt\.metals\metals.log[0m
+[0m2021.03.23 11:02:38 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at e:\Angular\workspace\jwt\null\scalameta\metals\cache\lsp.trace.json[0m
+[0m2021.03.23 11:02:38 INFO  Starting Metals server with configuration: MetalsServerConfig(
+  glob-syntax=GlobSyntaxConfig(vscode),
+  status-bar=StatusBarConfig(off),
+  open-files-on-rename=false,
+  rename-file-threshold=300,
+  slow-task=SlowTaskConfig(off),
+  execute-client-command=ExecuteClientCommandConfig(off),
+  compilers=PresentationCompilerConfigImpl(false,Some(editor.action.triggerParameterHints),Some(editor.action.triggerSuggest),Map(scala/collection/mutable/ -> mutable., java/util/ -> ju.),Unicode,true,true,true,true,true,true,true,scala.meta.internal.pc.PresentationCompilerConfigImpl$$$Lambda$61/1366025231@17046283,20,SECONDS),
+  http=false,
+  input-box=false,
+  ask-to-reconnect=false,
+  icons=vscode,
+  statistics=StatisticsConfig(default),
+  bloop-port=default
+)[0m
+[0m2021.03.23 11:02:39 INFO  logging to file E:\Angular\workspace\jwt\.metals\metals.log[0m

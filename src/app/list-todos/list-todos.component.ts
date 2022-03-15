@@ -2,13 +2,13 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { TodoDataService } from '../services/data/todo-service.service';
-import { TokenStorageService } from '../auth/token-storage.service';
+import { ModalDismissReasons, NgbModal } from '@ng-bootstrap/ng-bootstrap';  
 
 export class Todo {
   constructor(
     public id: number,
+    public name: string,
     public description: string,
-    public done: boolean,
     public targetDate: Date
   ){
 
@@ -25,24 +25,21 @@ export class ListTodosComponent implements OnInit {
   todos: Todo[]
 
   message: string
-  userName: string;
-
+  closeResult: string;
   constructor(
     private todoService:TodoDataService,
-    private tokenStorage: TokenStorageService,
-    private router : Router
+    private router : Router,
+    private modalService: NgbModal
   ) { }
 
   ngOnInit() {
    
-    if (this.tokenStorage.getToken()) {
-      this.userName= this.tokenStorage.getUsername();
-      this.refreshTodos();
-    }
+    
+    this.getTodos();
   }
 
   refreshTodos(){
-    this.todoService.retrieveAllTodos(this.userName).subscribe(
+    this.todoService.getTodos().subscribe(
       response => {
         console.log(response);
         this.todos = response;
@@ -50,12 +47,17 @@ export class ListTodosComponent implements OnInit {
     )
   }
 
+
+  getTodos(): void {
+    this.todoService.getTodos().toPromise()
+      .then(todos => this.todos = todos );
+  }
   deleteTodo(id) {
     console.log(`delete todo ${id}` )
-    this.todoService.deleteTodo(this.userName, id).subscribe (
+    this.todoService.deleteTodo( id).subscribe (
       response => {
         console.log(response);
-        this.message = `Delete of Todo ${id} Successful!`;
+        this.message = `Delete Successful!`;
         this.refreshTodos();
       }
     )
@@ -69,4 +71,26 @@ export class ListTodosComponent implements OnInit {
   addTodo() {
     this.router.navigate(['todos',-1])
   }
+
+  open(content, todoId) {  
+    this.modalService.open(content, { ariaLabelledBy: 'modal-basic-title' }).result.then((result) => {  
+      this.closeResult = `Closed with: ${result}`;  
+      if (result === 'yes') {  
+        this.deleteTodo(todoId);  
+      }  
+    }, (reason) => {  
+      this.closeResult = `Dismissed ${this.getDismissReason(reason)}`;  
+    });  
+  }  
+  
+  private getDismissReason(reason: any): string {  
+    if (reason === ModalDismissReasons.ESC) {  
+      return 'by pressing ESC';  
+    } else if (reason === ModalDismissReasons.BACKDROP_CLICK) {  
+      return 'by clicking on a backdrop';  
+    } else {  
+      return `with: ${reason}`;  
+    }  
+  }  
+  
 }

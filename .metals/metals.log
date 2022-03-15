@@ -1,0 +1,225 @@
+[0m2021.03.18 17:32:12 INFO  Started: Metals version 0.10.0 in workspace 'E:\Angular\workspace\jwt' for client vscode 1.53.2.[0m
+[0m2021.03.18 17:32:13 INFO  time: initialize in 1.35s[0m
+[0m2021.03.18 17:32:17 WARN  Build server is not auto-connectable.[0m
+[0m2021.03.18 17:32:17 WARN  no build tool detected in workspace 'E:\Angular\workspace\jwt'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.03.19 00:57:30 INFO  shutting down Metals[0m
+[0m2021.03.19 20:01:04 INFO  Started: Metals version 0.10.0 in workspace 'E:\Angular\workspace\jwt' for client vscode 1.54.3.[0m
+[0m2021.03.19 20:01:05 INFO  time: initialize in 1.18s[0m
+[0m2021.03.19 20:01:07 WARN  Build server is not auto-connectable.[0m
+[0m2021.03.19 20:01:07 WARN  no build tool detected in workspace 'E:\Angular\workspace\jwt'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.03.20 00:26:38 INFO  Started: Metals version 0.10.0 in workspace 'E:\Angular\workspace\jwt' for client vscode 1.54.3.[0m
+[0m2021.03.20 00:26:39 INFO  time: initialize in 1.02s[0m
+[0m2021.03.20 00:26:44 WARN  Build server is not auto-connectable.[0m
+[0m2021.03.20 00:26:44 WARN  no build tool detected in workspace 'E:\Angular\workspace\jwt'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.03.20 00:32:23 INFO  shutting down Metals[0m
+[0m2021.03.22 23:59:13 INFO  Started: Metals version 0.10.0 in workspace 'E:\Angular\workspace\jwt' for client vscode 1.54.3.[0m
+[0m2021.03.22 23:59:14 INFO  time: initialize in 0.93s[0m
+[0m2021.03.22 23:59:16 WARN  Build server is not auto-connectable.[0m
+[0m2021.03.22 23:59:16 WARN  no build tool detected in workspace 'E:\Angular\workspace\jwt'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+Mar 23, 2021 12:36:12 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: coursierapi.error.SimpleResolutionError$1: Error downloading org.foundweekends.giter8:giter8_2.12:0.13.0-M1
+  not found: C:\Users\user\.ivy2\local\org.foundweekends.giter8\giter8_2.12\0.13.0-M1\ivys\ivy.xml
+  download error: Caught java.net.UnknownHostException: repo1.maven.org (repo1.maven.org) while downloading https://repo1.maven.org/maven2/org/foundweekends/giter8/giter8_2.12/0.13.0-M1/giter8_2.12-0.13.0-M1.pom
+java.util.concurrent.CompletionException: coursierapi.error.SimpleResolutionError$1: Error downloading org.foundweekends.giter8:giter8_2.12:0.13.0-M1
+  not found: C:\Users\user\.ivy2\local\org.foundweekends.giter8\giter8_2.12\0.13.0-M1\ivys\ivy.xml
+  download error: Caught java.net.UnknownHostException: repo1.maven.org (repo1.maven.org) while downloading https://repo1.maven.org/maven2/org/foundweekends/giter8/giter8_2.12/0.13.0-M1/giter8_2.12-0.13.0-M1.pom
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:647)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1977)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at scala.concurrent.BatchingExecutor$Batch.processBatch$1(BatchingExecutor.scala:67)
+	at scala.concurrent.BatchingExecutor$Batch.$anonfun$run$1(BatchingExecutor.scala:82)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:85)
+	at scala.concurrent.BatchingExecutor$Batch.run(BatchingExecutor.scala:59)
+	at scala.concurrent.Future$InternalCallbackExecutor$.unbatchedExecute(Future.scala:875)
+	at scala.concurrent.BatchingExecutor.execute(BatchingExecutor.scala:110)
+	at scala.concurrent.BatchingExecutor.execute$(BatchingExecutor.scala:107)
+	at scala.concurrent.Future$InternalCallbackExecutor$.execute(Future.scala:873)
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:72)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1$adapted(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:288)
+	at scala.concurrent.Promise.complete(Promise.scala:53)
+	at scala.concurrent.Promise.complete$(Promise.scala:52)
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:187)
+	at scala.concurrent.Promise.failure(Promise.scala:104)
+	at scala.concurrent.Promise.failure$(Promise.scala:104)
+	at scala.concurrent.impl.Promise$DefaultPromise.failure(Promise.scala:187)
+	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:45)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: coursierapi.error.SimpleResolutionError$1: Error downloading org.foundweekends.giter8:giter8_2.12:0.13.0-M1
+  not found: C:\Users\user\.ivy2\local\org.foundweekends.giter8\giter8_2.12\0.13.0-M1\ivys\ivy.xml
+  download error: Caught java.net.UnknownHostException: repo1.maven.org (repo1.maven.org) while downloading https://repo1.maven.org/maven2/org/foundweekends/giter8/giter8_2.12/0.13.0-M1/giter8_2.12-0.13.0-M1.pom
+	at coursierapi.error.SimpleResolutionError.of(SimpleResolutionError.java:11)
+	at coursierapi.shaded.coursier.internal.api.ApiHelper$.simpleResError(ApiHelper.scala:326)
+	at coursierapi.shaded.coursier.internal.api.ApiHelper$.doFetch(ApiHelper.scala:359)
+	at coursierapi.shaded.coursier.internal.api.ApiHelper.doFetch(ApiHelper.scala)
+	at coursierapi.Fetch.fetchResult(Fetch.java:244)
+	at coursierapi.Fetch.fetch(Fetch.java:239)
+	at scala.meta.internal.builds.ShellRunner.runJava(ShellRunner.scala:47)
+	at scala.meta.internal.builds.NewProjectProvider.createNewProject(NewProjectProvider.scala:114)
+	at scala.meta.internal.builds.NewProjectProvider.$anonfun$createNewProjectFromTemplate$5(NewProjectProvider.scala:90)
+	at scala.concurrent.Future.$anonfun$flatMap$1(Future.scala:307)
+	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:41)
+	... 4 more
+
+[0m2021.03.23 00:37:03 INFO  shutting down Metals[0m
+[0m2021.03.23 00:38:46 INFO  Started: Metals version 0.10.0 in workspace 'E:\Angular\workspace\jwt' for client vscode 1.54.3.[0m
+[0m2021.03.23 00:38:47 INFO  time: initialize in 0.89s[0m
+[0m2021.03.23 00:38:49 WARN  Build server is not auto-connectable.[0m
+[0m2021.03.23 00:38:49 WARN  no build tool detected in workspace 'E:\Angular\workspace\jwt'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+Mar 23, 2021 12:42:55 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: coursierapi.error.SimpleResolutionError$1: Error downloading org.foundweekends.giter8:giter8_2.12:0.13.0-M1
+  not found: C:\Users\user\.ivy2\local\org.foundweekends.giter8\giter8_2.12\0.13.0-M1\ivys\ivy.xml
+  download error: Caught java.net.UnknownHostException: repo1.maven.org (repo1.maven.org) while downloading https://repo1.maven.org/maven2/org/foundweekends/giter8/giter8_2.12/0.13.0-M1/giter8_2.12-0.13.0-M1.pom
+java.util.concurrent.CompletionException: coursierapi.error.SimpleResolutionError$1: Error downloading org.foundweekends.giter8:giter8_2.12:0.13.0-M1
+  not found: C:\Users\user\.ivy2\local\org.foundweekends.giter8\giter8_2.12\0.13.0-M1\ivys\ivy.xml
+  download error: Caught java.net.UnknownHostException: repo1.maven.org (repo1.maven.org) while downloading https://repo1.maven.org/maven2/org/foundweekends/giter8/giter8_2.12/0.13.0-M1/giter8_2.12-0.13.0-M1.pom
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:647)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1977)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at scala.concurrent.BatchingExecutor$Batch.processBatch$1(BatchingExecutor.scala:67)
+	at scala.concurrent.BatchingExecutor$Batch.$anonfun$run$1(BatchingExecutor.scala:82)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:85)
+	at scala.concurrent.BatchingExecutor$Batch.run(BatchingExecutor.scala:59)
+	at scala.concurrent.Future$InternalCallbackExecutor$.unbatchedExecute(Future.scala:875)
+	at scala.concurrent.BatchingExecutor.execute(BatchingExecutor.scala:110)
+	at scala.concurrent.BatchingExecutor.execute$(BatchingExecutor.scala:107)
+	at scala.concurrent.Future$InternalCallbackExecutor$.execute(Future.scala:873)
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:72)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1$adapted(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:288)
+	at scala.concurrent.Promise.complete(Promise.scala:53)
+	at scala.concurrent.Promise.complete$(Promise.scala:52)
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:187)
+	at scala.concurrent.Promise.failure(Promise.scala:104)
+	at scala.concurrent.Promise.failure$(Promise.scala:104)
+	at scala.concurrent.impl.Promise$DefaultPromise.failure(Promise.scala:187)
+	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:45)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: coursierapi.error.SimpleResolutionError$1: Error downloading org.foundweekends.giter8:giter8_2.12:0.13.0-M1
+  not found: C:\Users\user\.ivy2\local\org.foundweekends.giter8\giter8_2.12\0.13.0-M1\ivys\ivy.xml
+  download error: Caught java.net.UnknownHostException: repo1.maven.org (repo1.maven.org) while downloading https://repo1.maven.org/maven2/org/foundweekends/giter8/giter8_2.12/0.13.0-M1/giter8_2.12-0.13.0-M1.pom
+	at coursierapi.error.SimpleResolutionError.of(SimpleResolutionError.java:11)
+	at coursierapi.shaded.coursier.internal.api.ApiHelper$.simpleResError(ApiHelper.scala:326)
+	at coursierapi.shaded.coursier.internal.api.ApiHelper$.doFetch(ApiHelper.scala:359)
+	at coursierapi.shaded.coursier.internal.api.ApiHelper.doFetch(ApiHelper.scala)
+	at coursierapi.Fetch.fetchResult(Fetch.java:244)
+	at coursierapi.Fetch.fetch(Fetch.java:239)
+	at scala.meta.internal.builds.ShellRunner.runJava(ShellRunner.scala:47)
+	at scala.meta.internal.builds.NewProjectProvider.createNewProject(NewProjectProvider.scala:114)
+	at scala.meta.internal.builds.NewProjectProvider.$anonfun$createNewProjectFromTemplate$5(NewProjectProvider.scala:90)
+	at scala.concurrent.Future.$anonfun$flatMap$1(Future.scala:307)
+	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:41)
+	... 4 more
+
+Mar 23, 2021 12:43:48 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: coursierapi.error.SimpleResolutionError$1: Error downloading org.foundweekends.giter8:giter8_2.12:0.13.0-M1
+  not found: C:\Users\user\.ivy2\local\org.foundweekends.giter8\giter8_2.12\0.13.0-M1\ivys\ivy.xml
+  download error: Caught java.net.UnknownHostException: repo1.maven.org (repo1.maven.org) while downloading https://repo1.maven.org/maven2/org/foundweekends/giter8/giter8_2.12/0.13.0-M1/giter8_2.12-0.13.0-M1.pom
+java.util.concurrent.CompletionException: coursierapi.error.SimpleResolutionError$1: Error downloading org.foundweekends.giter8:giter8_2.12:0.13.0-M1
+  not found: C:\Users\user\.ivy2\local\org.foundweekends.giter8\giter8_2.12\0.13.0-M1\ivys\ivy.xml
+  download error: Caught java.net.UnknownHostException: repo1.maven.org (repo1.maven.org) while downloading https://repo1.maven.org/maven2/org/foundweekends/giter8/giter8_2.12/0.13.0-M1/giter8_2.12-0.13.0-M1.pom
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:647)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:632)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:474)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1977)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at scala.concurrent.BatchingExecutor$Batch.processBatch$1(BatchingExecutor.scala:67)
+	at scala.concurrent.BatchingExecutor$Batch.$anonfun$run$1(BatchingExecutor.scala:82)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:85)
+	at scala.concurrent.BatchingExecutor$Batch.run(BatchingExecutor.scala:59)
+	at scala.concurrent.Future$InternalCallbackExecutor$.unbatchedExecute(Future.scala:875)
+	at scala.concurrent.BatchingExecutor.execute(BatchingExecutor.scala:110)
+	at scala.concurrent.BatchingExecutor.execute$(BatchingExecutor.scala:107)
+	at scala.concurrent.Future$InternalCallbackExecutor$.execute(Future.scala:873)
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:72)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1$adapted(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:288)
+	at scala.concurrent.Promise.complete(Promise.scala:53)
+	at scala.concurrent.Promise.complete$(Promise.scala:52)
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:187)
+	at scala.concurrent.Promise.failure(Promise.scala:104)
+	at scala.concurrent.Promise.failure$(Promise.scala:104)
+	at scala.concurrent.impl.Promise$DefaultPromise.failure(Promise.scala:187)
+	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:45)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: coursierapi.error.SimpleResolutionError$1: Error downloading org.foundweekends.giter8:giter8_2.12:0.13.0-M1
+  not found: C:\Users\user\.ivy2\local\org.foundweekends.giter8\giter8_2.12\0.13.0-M1\ivys\ivy.xml
+  download error: Caught java.net.UnknownHostException: repo1.maven.org (repo1.maven.org) while downloading https://repo1.maven.org/maven2/org/foundweekends/giter8/giter8_2.12/0.13.0-M1/giter8_2.12-0.13.0-M1.pom
+	at coursierapi.error.SimpleResolutionError.of(SimpleResolutionError.java:11)
+	at coursierapi.shaded.coursier.internal.api.ApiHelper$.simpleResError(ApiHelper.scala:326)
+	at coursierapi.shaded.coursier.internal.api.ApiHelper$.doFetch(ApiHelper.scala:359)
+	at coursierapi.shaded.coursier.internal.api.ApiHelper.doFetch(ApiHelper.scala)
+	at coursierapi.Fetch.fetchResult(Fetch.java:244)
+	at coursierapi.Fetch.fetch(Fetch.java:239)
+	at scala.meta.internal.builds.ShellRunner.runJava(ShellRunner.scala:47)
+	at scala.meta.internal.builds.NewProjectProvider.createNewProject(NewProjectProvider.scala:114)
+	at scala.meta.internal.builds.NewProjectProvider.$anonfun$createNewProjectFromTemplate$5(NewProjectProvider.scala:90)
+	at scala.concurrent.Future.$anonfun$flatMap$1(Future.scala:307)
+	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:41)
+	... 4 more
+
+[0m2021.03.23 00:53:42 INFO  [0m
+[0m2021.03.23 00:53:42 INFO  Template applied in E:\Angular\workspace\akka-scala-seed\akka-scala-seed\.\akka-scala-seed[0m
+[0m2021.03.23 00:53:42 INFO  [0m
+[0m2021.03.23 00:53:50 INFO  [0m
+[0m2021.03.23 00:53:50 INFO  Template applied in E:\Angular\workspace\akka-scala-seed\.\akka-scala-seed[0m
+[0m2021.03.23 00:53:50 INFO  [0m
+[0m2021.03.23 00:53:50 INFO  giter8.Giter8 exit: 0[0m
+[0m2021.03.23 00:53:50 INFO  giter8.Giter8 exit: 0[0m
+[0m2021.03.23 00:53:50 INFO  time: ran 'giter8.Giter8' in 40s[0m
+[0m2021.03.23 00:53:50 INFO  time: ran 'giter8.Giter8' in 40s[0m
+[0m2021.03.23 01:38:56 WARN  no build tool detected in workspace 'E:\Angular\workspace\jwt'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.03.23 01:38:59 WARN  no build tool detected in workspace 'E:\Angular\workspace\jwt'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.03.23 11:02:39 INFO  Started: Metals version 0.10.0 in workspace 'E:\Angular\workspace\jwt' for client vscode 1.54.3.[0m
+[0m2021.03.23 11:02:40 INFO  time: initialize in 1.09s[0m
+[0m2021.03.23 11:02:46 WARN  Build server is not auto-connectable.[0m
+[0m2021.03.23 11:02:46 WARN  no build tool detected in workspace 'E:\Angular\workspace\jwt'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.03.23 11:04:11 ERROR [0m
+[0m2021.03.23 11:04:11 ERROR https://github.com/akka/akka-scala-seed.g8.git: cannot open git-upload-pack[0m
+[0m2021.03.23 11:04:11 ERROR [0m
+[0m2021.03.23 11:04:11 INFO  giter8.Giter8 exit: 1[0m
+[0m2021.03.23 11:04:11 INFO  time: ran 'giter8.Giter8' in 4.85s[0m
+[0m2021.03.23 11:07:47 INFO  Skipping existing file: E:\Angular\workspace\akka-scala-seed\.\akka-scala-seed\.gitignore[0m
+[0m2021.03.23 11:07:47 INFO  Skipping existing file: E:\Angular\workspace\akka-scala-seed\.\akka-scala-seed\build.sbt[0m
+[0m2021.03.23 11:07:47 INFO  Skipping existing file: E:\Angular\workspace\akka-scala-seed\.\akka-scala-seed\project\build.properties[0m
+[0m2021.03.23 11:07:47 INFO  Skipping existing file: E:\Angular\workspace\akka-scala-seed\.\akka-scala-seed\project\plugins.sbt[0m
+[0m2021.03.23 11:07:47 INFO  Skipping existing file: E:\Angular\workspace\akka-scala-seed\.\akka-scala-seed\src\main\resources\logback.xml[0m
+[0m2021.03.23 11:07:47 INFO  Skipping existing file: E:\Angular\workspace\akka-scala-seed\.\akka-scala-seed\src\main\scala\com\example\AkkaQuickstart.scala[0m
+[0m2021.03.23 11:07:47 INFO  Skipping existing file: E:\Angular\workspace\akka-scala-seed\.\akka-scala-seed\src\test\scala\com\example\AkkaQuickstartSpec.scala[0m
+[0m2021.03.23 11:07:47 INFO  [0m
+[0m2021.03.23 11:07:47 INFO  Template applied in E:\Angular\workspace\akka-scala-seed\.\akka-scala-seed[0m
+[0m2021.03.23 11:07:47 INFO  [0m
+[0m2021.03.23 11:07:47 INFO  giter8.Giter8 exit: 0[0m
+[0m2021.03.23 11:07:47 INFO  time: ran 'giter8.Giter8' in 13s[0m
+[0m2021.03.23 11:36:06 INFO  shutting down Metals[0m

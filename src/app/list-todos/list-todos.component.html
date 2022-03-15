@@ -1,28 +1,45 @@
-<h1> Todo </h1>
-<h2>{{userName}}</h2>
-<div class="alert alert-success" *ngIf='message'>{{message}}</div>
+<h1> Todos List </h1>
+
+<div class="alert alert" *ngIf='message'>{{message}}</div>
+
+<ng-template #content let-c="close" let-d="dismiss">    
+  <div class="modal-header">    
+      <h4 class="modal-title" id="modal-basic-title">Confirmation</h4>    
+      <button type="button" class="close" aria-label="Close" (click)="d('Cross click')">    
+          <span aria-hidden="true">×</span>    
+      </button>    
+  </div>    
+  <div class="modal-body">    
+      <p>Are you sure to delete this?</p>    
+  </div>    
+  <div class="modal-footer">    
+      <button type="button" class="btn btn-outline-dark" (click)="d('Cross click')">Cancel</button>    
+      <button type="button" class="btn btn-outline-dark" (click)="c('yes')">Yes</button>    
+  </div>    
+</ng-template>     
+
+
 
 <div class="container">
   <table class="table">
     <thead>
       <tr>
+        <th>Name</th>
         <th>Description</th>
-        <th>Target Date</th>
-        <th>is Completed?</th>
+        <th>Date</th>
         <th>Update</th>
         <th>Delete</th>
       </tr>
     </thead>
     <tbody>
-      <!--   for (Todo todo: todos) {  -->
               <tr *ngFor="let todo of todos">
+                <td>{{todo.name}}</td>
                 <td>{{todo.description}}</td>
                 <td>{{todo.targetDate | date | uppercase}}</td>
-                <td>{{todo.done}}</td>
                 <td><button (click)="updateTodo(todo.id)" class="btn btn-success">Update</button></td>
-                <td><button (click)="deleteTodo(todo.id)" class="btn btn-warning">Delete</button></td>
+                <td><button (click)="open(content,todo.id)" class="btn btn-warning">Delete</button></td>
+
               </tr>
-      <!-- } -->
     </tbody>
 
   </table>
